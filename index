@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login dark</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="icon" href="/img/panela-removebg-preview (2).png" />
+</head>
+<body>
+    <!-- criando uma div -->
+    <div class="main-login">
+        <div class="left-login">
+           <h1></h1>
+
+           <!-- inserir a imagem de fundo -->
+           <img src="/img/Cooking-pana (1).svg" class="left-login-image" alt="cozinheira">
+           
+        </div>
+
+    <div class="right-login">
+         <div class="card-login">
+
+            <h1>Cadastro</h1>
+            <div class="textfield">
+                <label for="email">Email</label>
+                <!-- input type para aparecer a caixinha, quadradinho do formulario -->
+
+                <!-- placeholder á a escrita que vai aparecer no fundo da caixinha -->
+                <input type="text" name="email" placeholder="exemplo@gmail.com">
+            </div>
+
+            <div class="textfield">
+                <label for="name">Nome de usuário</label>
+                <!-- input type para aparecer a caixinha, quadradinho do formulario -->
+
+                <!-- placeholder á a escrita que vai aparecer no fundo da caixinha -->
+                <input type="text" name="name"  required>
+            </div>
+
+            <div class="textfield">
+                <label for="password">Senha</label>
+                <!-- input type para aparecer a caixinha, quadradinho do formulario -->
+
+                <!-- placeholder á a escrita que vai aparecer no fundo da caixinha -->
+                <input type="password" name="senha" placeholder="********" required>
+            </div>
+
+            <div class="textfield">
+                <label for="">Confirmar Senha</label>
+                <!-- input type para aparecer a caixinha, quadradinho do formulario -->
+
+                <!-- placeholder á a escrita que vai aparecer no fundo da caixinha -->
+                <input type="password" name="senha" placeholder="********" required>
+            </div>
+
+            <!-- Criando o botao -->
+            <button class="btn-login">Entre</button>
+
+            
+          </div>
+
+          
+        </div>
+    </div>
+</body>
+</html>
